@@ -10,7 +10,7 @@
 #import "IOSSecondViewController.h"
 
 @interface IOSFirstViewController ()
-
+@property (nonatomic, assign) BOOL shouldBeHidingStatusBar;
 @end
 
 @implementation IOSFirstViewController
@@ -21,6 +21,7 @@
     if (self) {
         // Custom initialization
         self.title = @"First View Controller";
+        self.shouldBeHidingStatusBar = NO;
     }
     return self;
 }
@@ -38,11 +39,22 @@
 }
 
 - (IBAction)statusbarButtonTapped:(id)sender {
+    self.shouldBeHidingStatusBar = ! self.shouldBeHidingStatusBar;
+    [UIView animateWithDuration:0.5 animations:^{
+        [self setNeedsStatusBarAppearanceUpdate];
+    }];
 }
 
 - (IBAction)toPageTwoTapped:(id)sender {
     IOSSecondViewController *secondViewController = [[IOSSecondViewController alloc]init];
     [self.navigationController pushViewController:secondViewController animated:YES];
-    
+}
+
+- (BOOL)prefersStatusBarHidden {
+    return self.shouldBeHidingStatusBar;
+}
+
+- (UIStatusBarAnimation)preferredStatusBarUpdateAnimation {
+    return UIStatusBarAnimationSlide;
 }
 @end

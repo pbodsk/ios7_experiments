@@ -18,7 +18,7 @@
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-        self.title = @"First View Controller";
+        self.title = @"Second View Controller";
     }
     return self;
 }
