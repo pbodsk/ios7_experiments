@@ -26,7 +26,10 @@
     UIImage *bg = [UIImage imageNamed:@"topbar"];
     [[UINavigationBar appearance] setBackgroundImage:bg forBarMetrics:UIBarMetricsDefault];
     [[UINavigationBar appearance] setBarStyle:UIBarStyleBlackTranslucent];
-    navigationController.navigationBar.translucent = NO;
+    
+    
+    
+    navigationController.navigationBar.translucent = NO;         // NO in the mobilBank app
 
     
     
