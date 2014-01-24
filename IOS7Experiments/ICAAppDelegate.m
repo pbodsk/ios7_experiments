@@ -28,7 +28,6 @@
     [[UINavigationBar appearance] setBarStyle:UIBarStyleBlackTranslucent];
     
     
-    
     navigationController.navigationBar.translucent = NO;         // NO in the mobilBank app
 
     
