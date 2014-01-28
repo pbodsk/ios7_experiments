@@ -7,6 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AD0BF1FF1897F7BF00B8034E /* image.png in Resources */ = {isa = PBXBuildFile; fileRef = AD0BF1FE1897F7BF00B8034E /* image.png */; };
+		AD0BF2021897F80200B8034E /* IOSFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD58DEA6188929D000FA3487 /* IOSFirstViewController.m */; };
+		AD0BF2031897F80200B8034E /* ICAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AD58DE86188929B700FA3487 /* ICAAppDelegate.m */; };
+		AD0BF2041897F80200B8034E /* IOSSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD58DEAB18892C1F00FA3487 /* IOSSecondViewController.m */; };
+		AD0BF2051897F80200B8034E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AD58DE82188929B700FA3487 /* main.m */; };
+		AD0BF2071897F80200B8034E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD58DE78188929B700FA3487 /* CoreGraphics.framework */; };
+		AD0BF2081897F80200B8034E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD58DE7A188929B700FA3487 /* UIKit.framework */; };
+		AD0BF2091897F80200B8034E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD58DE76188929B700FA3487 /* Foundation.framework */; };
+		AD0BF20B1897F80200B8034E /* IOSFirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD58DEA7188929D000FA3487 /* IOSFirstViewController.xib */; };
+		AD0BF20C1897F80200B8034E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AD58DE7F188929B700FA3487 /* InfoPlist.strings */; };
+		AD0BF20D1897F80200B8034E /* topbar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AD58DEB218892EC000FA3487 /* topbar@2x.png */; };
+		AD0BF20E1897F80200B8034E /* topbar_44@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AD58DEB018892EC000FA3487 /* topbar_44@2x.png */; };
+		AD0BF20F1897F80200B8034E /* IOSSecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD58DEAC18892C1F00FA3487 /* IOSSecondViewController.xib */; };
+		AD0BF2101897F80200B8034E /* topbar_44.png in Resources */ = {isa = PBXBuildFile; fileRef = AD58DEAF18892EC000FA3487 /* topbar_44.png */; };
+		AD0BF2111897F80200B8034E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD58DE88188929B700FA3487 /* Images.xcassets */; };
+		AD0BF2121897F80200B8034E /* topbar.png in Resources */ = {isa = PBXBuildFile; fileRef = AD58DEB118892EC000FA3487 /* topbar.png */; };
+		AD0BF21A1897F83700B8034E /* image.png in Resources */ = {isa = PBXBuildFile; fileRef = AD0BF2191897F83700B8034E /* image.png */; };
 		AD58DE77188929B700FA3487 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD58DE76188929B700FA3487 /* Foundation.framework */; };
 		AD58DE79188929B700FA3487 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD58DE78188929B700FA3487 /* CoreGraphics.framework */; };
 		AD58DE7B188929B700FA3487 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD58DE7A188929B700FA3487 /* UIKit.framework */; };
@@ -40,6 +57,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AD0BF1FE1897F7BF00B8034E /* image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = image.png; path = Images/IOS7Experiments/image.png; sourceTree = "<group>"; };
+		AD0BF2171897F80200B8034E /* SecondTarget.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SecondTarget.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD0BF2181897F80200B8034E /* SecondTarget-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "SecondTarget-Info.plist"; path = "/Users/jb3579/Documents/Programming/ObjectiveC/Workspace/IOS7Experiments/SecondTarget-Info.plist"; sourceTree = "<absolute>"; };
+		AD0BF2191897F83700B8034E /* image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = image.png; path = Images/SecondTarget/image.png; sourceTree = "<group>"; };
 		AD58DE73188929B700FA3487 /* IOS7Experiments.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOS7Experiments.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD58DE76188929B700FA3487 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		AD58DE78188929B700FA3487 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -69,6 +90,16 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		AD0BF2061897F80200B8034E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD0BF2071897F80200B8034E /* CoreGraphics.framework in Frameworks */,
+				AD0BF2081897F80200B8034E /* UIKit.framework in Frameworks */,
+				AD0BF2091897F80200B8034E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AD58DE70188929B700FA3487 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -99,6 +130,7 @@
 				AD58DE95188929B700FA3487 /* IOS7ExperimentsTests */,
 				AD58DE75188929B700FA3487 /* Frameworks */,
 				AD58DE74188929B700FA3487 /* Products */,
+				AD0BF2181897F80200B8034E /* SecondTarget-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -107,6 +139,7 @@
 			children = (
 				AD58DE73188929B700FA3487 /* IOS7Experiments.app */,
 				AD58DE8E188929B700FA3487 /* IOS7ExperimentsTests.xctest */,
+				AD0BF2171897F80200B8034E /* SecondTarget.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -125,6 +158,8 @@
 		AD58DE7C188929B700FA3487 /* IOS7Experiments */ = {
 			isa = PBXGroup;
 			children = (
+				AD0BF2191897F83700B8034E /* image.png */,
+				AD0BF1FE1897F7BF00B8034E /* image.png */,
 				AD58DEAF18892EC000FA3487 /* topbar_44.png */,
 				AD58DEB018892EC000FA3487 /* topbar_44@2x.png */,
 				AD58DEB118892EC000FA3487 /* topbar.png */,
@@ -175,6 +210,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		AD0BF2001897F80200B8034E /* SecondTarget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD0BF2141897F80200B8034E /* Build configuration list for PBXNativeTarget "SecondTarget" */;
+			buildPhases = (
+				AD0BF2011897F80200B8034E /* Sources */,
+				AD0BF2061897F80200B8034E /* Frameworks */,
+				AD0BF20A1897F80200B8034E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SecondTarget;
+			productName = IOS7Experiments;
+			productReference = AD0BF2171897F80200B8034E /* SecondTarget.app */;
+			productType = "com.apple.product-type.application";
+		};
 		AD58DE72188929B700FA3487 /* IOS7Experiments */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = AD58DE9F188929B700FA3487 /* Build configuration list for PBXNativeTarget "IOS7Experiments" */;
@@ -239,11 +291,28 @@
 			targets = (
 				AD58DE72188929B700FA3487 /* IOS7Experiments */,
 				AD58DE8D188929B700FA3487 /* IOS7ExperimentsTests */,
+				AD0BF2001897F80200B8034E /* SecondTarget */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		AD0BF20A1897F80200B8034E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD0BF20B1897F80200B8034E /* IOSFirstViewController.xib in Resources */,
+				AD0BF20C1897F80200B8034E /* InfoPlist.strings in Resources */,
+				AD0BF20D1897F80200B8034E /* topbar@2x.png in Resources */,
+				AD0BF20E1897F80200B8034E /* topbar_44@2x.png in Resources */,
+				AD0BF20F1897F80200B8034E /* IOSSecondViewController.xib in Resources */,
+				AD0BF2101897F80200B8034E /* topbar_44.png in Resources */,
+				AD0BF2111897F80200B8034E /* Images.xcassets in Resources */,
+				AD0BF2121897F80200B8034E /* topbar.png in Resources */,
+				AD0BF21A1897F83700B8034E /* image.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AD58DE71188929B700FA3487 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -256,6 +325,7 @@
 				AD58DEB318892EC000FA3487 /* topbar_44.png in Resources */,
 				AD58DE89188929B700FA3487 /* Images.xcassets in Resources */,
 				AD58DEB518892EC000FA3487 /* topbar.png in Resources */,
+				AD0BF1FF1897F7BF00B8034E /* image.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +340,17 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		AD0BF2011897F80200B8034E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD0BF2021897F80200B8034E /* IOSFirstViewController.m in Sources */,
+				AD0BF2031897F80200B8034E /* ICAAppDelegate.m in Sources */,
+				AD0BF2041897F80200B8034E /* IOSSecondViewController.m in Sources */,
+				AD0BF2051897F80200B8034E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AD58DE6F188929B700FA3487 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -319,6 +400,34 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		AD0BF2151897F80200B8034E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IOS7Experiments/IOS7Experiments-Prefix.pch";
+				INFOPLIST_FILE = "SecondTarget-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = SecondTarget;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AD0BF2161897F80200B8034E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IOS7Experiments/IOS7Experiments-Prefix.pch";
+				INFOPLIST_FILE = "SecondTarget-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = SecondTarget;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
 		AD58DE9D188929B700FA3487 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -464,6 +573,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		AD0BF2141897F80200B8034E /* Build configuration list for PBXNativeTarget "SecondTarget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD0BF2151897F80200B8034E /* Debug */,
+				AD0BF2161897F80200B8034E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		AD58DE6E188929B600FA3487 /* Build configuration list for PBXProject "IOS7Experiments" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
