@@ -99,6 +99,11 @@
     [self.navigationController pushViewController:secondViewController animated:YES];
 }
 
+- (IBAction)alertButtonTapped:(id)sender {
+    UIAlertView *alertView = [[UIAlertView alloc]initWithTitle:@"title" message:@"Message" delegate:self cancelButtonTitle:@"cancel" otherButtonTitles:@"OK", nil];
+    [alertView show];
+}
+
 - (BOOL)prefersStatusBarHidden {
     return self.shouldBeHidingStatusBar;
 }

@@ -11,5 +11,6 @@
 @interface IOSFirstViewController : UIViewController
 - (IBAction)statusbarButtonTapped:(id)sender;
 - (IBAction)toPageTwoTapped:(id)sender;
+- (IBAction)alertButtonTapped:(id)sender;
 
 @end
